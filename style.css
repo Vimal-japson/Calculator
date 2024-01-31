@@ -1,0 +1,70 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+h1{
+    margin: 1.5em 0;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: .7px;
+}
+button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: hsl(0, 0%, 30%);
+    color: white;
+    cursor: pointer;
+}
+
+.keys{
+    display: grid;
+    grid-template-columns: repeat(4,50px);
+    gap: 5px;
+    padding: 20px;
+}
+input{
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 2em;
+    color: white;
+    width: 100%;
+    height: 60px;
+    border: none;
+    background-color: hsl(0,0%,20%);
+    border-top-left-radius: 5vh;
+    border-top-right-radius: 5vh;
+}
+.container{
+    border-radius: 3vh;
+    margin: 5em auto;
+    max-width: 250px;
+    overflow: hidden;
+    background-color: hsl(0,0%,15%);
+}
+.calc{
+    background-color: orange;
+}
+.calc:hover{
+    background-color: rgb(209, 149, 38);
+}
+.items:hover{
+    background-color: hsl(0, 4%, 20%); 
+}
+.cont{
+    display: flex;
+    gap: 13px;
+}
+.items1{
+    background-color:orange; ;
+    margin-top: 10px;
+    width: 100px;
+    border-radius: 5vh;
+    padding: 0 1.1em;
+}
+.items1:hover{
+    background-color:rgb(209, 149, 38); ;
+}
